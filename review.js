@@ -1,7 +1,7 @@
 // Import required packages
 const express = require('express');
 const cors = require('cors'); // Import CORS
-const path = require('path'); // Built-in Node.js package for file paths
+// const path = require('path'); // Built-in Node.js package for file paths
 const mysql = require('mysql'); // Import MySQL
 const moment = require('moment'); // Import Moment.js for timestamps
 
@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 5000;
 const connection = mysql.createConnection({
     host: 'be3wejepmdne8hznkcpv-mysql.services.clever-cloud.com',
     user: 'ugf080ugivrp3kcf',
-    password: 'ugf080ugivrp3kcf',
+    password: '4I6dKBLGvJYJWCfEdMYu',
     database: 'be3wejepmdne8hznkcpv',
 });
 
